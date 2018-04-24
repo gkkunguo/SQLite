@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="match_parent"
+        android:background="#2222ff"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/createDatabase"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="createDatabase"
+        />
+
+    <Button
+        android:id="@+id/updateDatabase"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="updateDatabase"
+        />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="insert"/>
+    <Button
+        android:id="@+id/update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="update"/>
+    <Button
+        android:id="@+id/query"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="query"/>
+    <Button
+        android:id="@+id/second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="下一个(XML解析)"/>
+
+
+</LinearLayout>
